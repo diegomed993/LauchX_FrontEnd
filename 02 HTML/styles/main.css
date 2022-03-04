@@ -3,6 +3,9 @@ body {
 background: #FBBFFC;
 }
 
+.carousel-inner{
+    max-height: 39rem;
+}
 
 #top1 ul > li > a{
 font: black;

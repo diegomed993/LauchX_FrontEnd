@@ -1,11 +1,27 @@
 
-body {
-background: #FBBFFC;
+
+#login{
+    background-image: url( "../images/slider2.jpg");
+    background-position:center;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+ 
+}
+#LOGIN{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 35rem;
+ 
 }
 
-
 .carousel-inner{
-    max-height: 39rem;
+    max-height: 30rem;
 }
 
 .centrar{

@@ -10,7 +10,17 @@
     min-height: 100vh;
  
 }
-#LOGIN{
+#pedido{
+    background-image: url( "../images/slider2.jpg");
+    background-position:center;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+ 
+}
+#formcenter{
 
     display: flex;
     align-items: center;

@@ -1,4 +1,67 @@
-#encabezado {
-  background-color: #fffeff;
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+a:hover {
+  color: #1f3e72;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1f3e72;
+}
+
+p {
+  color: #6d7b93;
+}
+
+body {
+  background-color: #fff;
+}
+
+.tSlow, a, #navbar, #navbar #menu #logo img, #navbar #menu ul {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.pad_100 {
+  padding: 100px 0px;
+  margin: 0px auto;
+}
+
+.center {
+  text-align: center;
+  margin: 0px auto;
+}
+
+#navbar {
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 10px 0px;
+  position: fixed;
+  border-bottom: 1px solid transparent;
+  z-index: 100;
+}
+
+#navbar #menu #logo img {
+  width: 100%;
+}
+
+#navbar #menu ul {
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+}
+
+#navbar #menu ul li {
+  display: inline-block;
+  padding: 0px 12px;
+}
+
+#navbar #menu ul li a {
+  position: relative;
+  text-decoration: none;
+  font-size: 16px;
+  color: #6d7b93;
 }
 /*# sourceMappingURL=main.css.map */

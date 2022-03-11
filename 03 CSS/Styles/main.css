@@ -9,10 +9,12 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   color: #1f3e72;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
   color: #6d7b93;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -29,16 +31,16 @@ body {
   margin: 0px auto;
 }
 
-.center {
-  text-align: center;
-  margin: 0px auto;
+.center, #part1 h1, #part1 p {
+  text-align: start;
+  margin: auto auto;
 }
 
 #navbar {
   width: 100%;
-  background-color: #f3f3f3;
+  background-color: transparent;
   padding: 10px 0px;
-  position: fixed;
+  position: relative;
   border-bottom: 1px solid transparent;
   z-index: 100;
 }
@@ -61,11 +63,49 @@ body {
 #navbar #menu ul li a {
   position: relative;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
   color: #6d7b93;
 }
 
 #navbar #menu ul li a:hover {
   color: #1f3e72;
+}
+
+#part1 {
+  position: relative;
+}
+
+#part1 #form {
+  position: absolute;
+  padding: 10px 10px;
+  top: 70%;
+}
+
+#part1 h1 {
+  margin-top: 30%;
+  top: 40%;
+  max-width: 60%;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#part1 p {
+  top: 50%;
+  max-width: 60%;
+  margin-top: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#marcas {
+  position: relative;
+}
+
+#why_vac {
+  position: relative;
+}
+
+#prepare {
+  position: relative;
 }
 /*# sourceMappingURL=main.css.map */

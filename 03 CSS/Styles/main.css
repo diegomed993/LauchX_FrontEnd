@@ -10,11 +10,14 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   color: #1f3e72;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 p {
   color: #6d7b93;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 body {
@@ -41,7 +44,9 @@ body {
   background-color: transparent;
   padding: 10px 0px;
   position: relative;
-  border-bottom: 1px solid transparent;
+  border-bottom: 2px solid transparent;
+  -webkit-box-shadow: 0px 2px 10px;
+          box-shadow: 0px 2px 10px;
   z-index: 100;
 }
 
@@ -77,8 +82,11 @@ body {
 
 #part1 #form {
   position: absolute;
+  background: transparent;
   padding: 10px 10px;
   top: 70%;
+  -webkit-box-shadow: 0px 5px 10px;
+          box-shadow: 0px 5px 10px;
 }
 
 #part1 h1 {
@@ -93,16 +101,57 @@ body {
   top: 50%;
   max-width: 60%;
   margin-top: 15px;
-  font-size: 1rem;
-  font-weight: bold;
 }
 
 #marcas {
   position: relative;
 }
 
+#marcas img {
+  position: relative;
+  max-width: 100%;
+}
+
 #why_vac {
   position: relative;
+  padding: 15px;
+  margin-left: 8rem;
+}
+
+#why_vac .text_part3 {
+  position: relative;
+}
+
+#why_vac .text_part3 p {
+  max-width: 40%;
+}
+
+#why_vac .text_part3 h1 {
+  font-size: 2.5rem;
+}
+
+#grid {
+  padding: 80px 0px;
+  padding-position: relative;
+  padding-width: 100%;
+}
+
+#grid-item {
+  padding: 15px 40px;
+  border: .5px solid;
+  position: relative;
+  max-width: 25%;
+  height: 25%;
+  float: left;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#grid-item img {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  padding: 15px 0px;
 }
 
 #prepare {

@@ -34,7 +34,7 @@ body {
   margin: 0px auto;
 }
 
-.center, #part1 h1, #part1 p {
+.center, #part1 h1, #part1 p, #prepare h1, #prepare p {
   text-align: start;
   margin: auto auto;
 }
@@ -85,8 +85,11 @@ body {
   background: transparent;
   padding: 10px 10px;
   top: 70%;
-  -webkit-box-shadow: 0px 5px 10px;
-          box-shadow: 0px 5px 10px;
+  left: 10%;
+  z-index: 50;
+  max-width: 70%;
+  -webkit-box-shadow: 0px 1px 5px;
+          box-shadow: 0px 1px 5px;
 }
 
 #part1 h1 {
@@ -103,6 +106,11 @@ body {
   margin-top: 15px;
 }
 
+#part1 #part1_der img {
+  position: relative;
+  width: 100%;
+}
+
 #marcas {
   position: relative;
 }
@@ -115,7 +123,7 @@ body {
 #why_vac {
   position: relative;
   padding: 15px;
-  margin-left: 8rem;
+  margin-left: 8%;
 }
 
 #why_vac .text_part3 {
@@ -131,30 +139,45 @@ body {
 }
 
 #grid {
-  padding: 80px 0px;
+  padding: 60px 0px;
   padding-position: relative;
   padding-width: 100%;
 }
 
 #grid-item {
-  padding: 15px 40px;
-  border: .5px solid;
+  padding: 15px 15px;
+  border: 1px transparent;
   position: relative;
-  max-width: 25%;
-  height: 25%;
-  float: left;
-  cursor: pointer;
-  overflow: hidden;
 }
 
 #grid-item img {
   position: relative;
-  width: 20px;
-  height: 20px;
-  padding: 15px 0px;
+  width: 35px;
+  height: 35px;
+  -webkit-box-shadow: 0px 1px 3px;
+          box-shadow: 0px 1px 3px;
 }
 
 #prepare {
   position: relative;
+}
+
+#prepare h1 {
+  margin-top: 30%;
+  top: 40%;
+  max-width: 60%;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#prepare p {
+  top: 50%;
+  max-width: 60%;
+  margin-top: 15px;
+}
+
+#prepare #part1_izq img {
+  position: relative;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

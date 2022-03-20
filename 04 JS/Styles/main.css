@@ -1,4 +1,67 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
 body {
   background-color: #fff;
+  font-family: 'Francois One', sans-serif;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 100vh;
+  background: transparent;
+}
+
+.card {
+  position: absolute;
+  overflow: hidden;
+  width: 650px;
+  height: 550px;
+}
+
+.card .pokedex {
+  position: relative;
+  width: 100%;
+}
+
+.card .card-content {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  padding: 5px 5px;
+}
+
+.card .card-content .card-left {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.card .card-content .card-right {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
 }
 /*# sourceMappingURL=main.css.map */

@@ -5,17 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex LaunchX</title>
+    <link rel="shortcut icon" href="/04 JS/Images/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/normalize.css">
     <link rel="stylesheet" href="Styles/main.css">
     
 </head>
 <body>
-    <h1>Pokedex LaunchX</h1> <br>
-    <img src="/04 JS/Images/Pokedex.png" alt="pokedex" width="550" height="650">
-    <input type="text" placeholder="pikachu" id="pokeName" name="pokeName"><br>
-    <img src="./pokeball.png" alt="Pokemon" id="pokeImg" width="150px"><br>
-    <button onclick="fetchPokemon()">Cambiar Imágen</button>
-</body>
+    <nav class="nav">
+        Pokedex LaunchX
+    </nav>
+    <main class="flex">-->
+    
+        <article class="card" >
+            <div class="card-content">
+                <div class="card-left">
+                    <h1 class="card-header">Pokedex LaunchX</h1>
+                    <img class="poke-img" src="/04 JS/Images/pokeball.gif" alt="Pokemon" id="pokeImg" width="250px">
+                    <h2 class="poke-name" id="poke-name">Pokemon Name</h2>
+                    <input type="text" placeholder="Pokemon Name" id="pokeName" name="pokeName"><br>
+                    <button onclick="fetchPokemon()">Search Pokemon</button>
+                </div>
+                <div class="card-right">
+                    <p class="poke-type" id="poke-type"><Span>Type: </Span></p>
+                    <ul class="poke-stats">
+                        <li class="stats-item">
+                            Pokemon Statistics
+                        </li>
+                    </ul>
+                    <ul class="poke-movs">
+                        <li class="movs-item">
+                        Pokemon Movs 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <img class="podedex" src="/04 JS/Images/Pokedex.png" alt="pokedex" width="650" height="550">
+        </article>
+    
+</main>
 <footer>
     <script src="Scripts/pokedex.js"></script>
 </footer>
+</body>
+
 </html>

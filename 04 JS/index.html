@@ -17,7 +17,7 @@
     <nav class="nav">
         Pokedex LaunchX
     </nav>
-    <main class="flex">-->
+    <main class="flex">
     
         <article class="card" >
             <div class="card-content">
@@ -29,20 +29,35 @@
                     <button onclick="fetchPokemon()">Search Pokemon</button>
                 </div>
                 <div class="card-right">
-                    <p class="poke-type" id="poke-type"><Span>Type: </Span></p>
+                    <p class="poke-type" id="poke-type">Type: <span> Pokemon Type</span></p>
                     <ul class="poke-stats">
-                        <li class="stats-item">
-                            Pokemon Statistics
+                        <li class="stats-item" id="hp">
+                            HP: <span> HP Level </span>
+                        </li>
+                        <li class="stats-item" id="ataque">
+                            Atack<span> Attack Level </span>
+                        </li>
+                        <li class="stats-item" id="defensa">
+                            Deffense<span> Deffense Level</span>
+                        </li>
+                        <li class="stats-item" id="especial">
+                            Special Attack<span> Special Attack Level </span>
                         </li>
                     </ul>
                     <ul class="poke-movs">
-                        <li class="movs-item">
-                        Pokemon Movs 
+                        <li class="movs-item" id="mov1">
+                            Move 1: <span> Move Name </span>
+                        </li>
+                        <li class="movs-item" id="mov2">
+                            Move 2: <span> Move Name </span> 
+                        </li>
+                        <li class="movs-item" id="mov3">
+                            Move 3: <span> Move Name </span> 
                         </li>
                     </ul>
                 </div>
             </div>
-            <img class="podedex" src="/04 JS/Images/Pokedex.png" alt="pokedex" width="650" height="550">
+            <img class="podedex" src="/04 JS/Images/Pokedex1.png" alt="pokedex" width="650" height="550">
         </article>
     
 </main>
